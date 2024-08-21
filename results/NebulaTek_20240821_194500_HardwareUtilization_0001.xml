@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<measData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.3gpp.org/ftp/specs/latest/Rel-15/32_series/32432-790.xml" xsi:schemaLocation="http://www.3gpp.org/ftp/specs/latest/Rel-15/32_series/32432-790.xml MeasData.xsd">
+  <fileHeader>
+    <fileFormatVersion>32.432 V15.0</fileFormatVersion>
+    <vendorName>NebulaTek</vendorName>
+    <dnPrefix>test/data</dnPrefix>
+  </fileHeader>
+  <measInfo>
+    <measInfoId>HardwareUtilization</measInfoId>
+    <granPeriod duration="PT15M"/>
+    <measTypes>
+      <measType p="1">CPU_Utilization</measType>
+      <measType p="2">Memory_Utilization</measType>
+      <measType p="3">Disk_Utilization</measType>
+    </measTypes>
+    <measValue measObjLdn="TEST/DATA/App13">
+      <r p="1">10</r>
+      <r p="2">51</r>
+      <r p="3">81</r>
+    </measValue>
+    <measValue measObjLdn="TEST/DATA/B4N4N4">
+      <r p="1">87</r>
+      <r p="2">37</r>
+      <r p="3">78</r>
+    </measValue>
+    <measValue measObjLdn="TEST/DATA/C0C0NUT">
+      <r p="1">90</r>
+      <r p="2">70</r>
+      <r p="3">85</r>
+    </measValue>
+    <measValue measObjLdn="TEST/DATA/D4T3">
+      <r p="1">33</r>
+      <r p="2">27</r>
+      <r p="3">69</r>
+    </measValue>
+  </measInfo>
+  <fileFooter>
+    <measDataCollection duration="PT15M"/>
+    <measDataCollectionEndTime>2024-08-21T19:45:00Z</measDataCollectionEndTime>
+  </fileFooter>
+</measData>
